@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support My Work | Donate</title>
+<style>
+    body { font-family: Arial, sans-serif; background: #f6f7fb; margin: 0; padding: 0; }
+    .container { max-width: 720px; margin: auto; padding: 20px; }
+    h1 { text-align: center; }
+    p { text-align: center; color: #333; }
+    .methods { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 30px; }
+    .card {
+        background: #fff; border-radius: 12px; padding: 20px; width: 200px; 
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center;
+    }
+    .qr { width: 160px; height: 160px; object-fit: cover; border-radius: 8px; }
+    .paypal-link { display: inline-block; margin-top: 10px; padding: 10px 16px;
+        background: #0070ba; color: white; border-radius: 6px; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Support My Work</h1>
+    <p>如果你觉得这个插件对你有帮助，可以通过以下方式支持我～</p>
+
+    <div class="methods">
+
+        <div class="card">
+            <h3>支付宝</h3>
+            <img class="qr" src="alipay_qr.jpg" alt="Alipay QR">
+        </div>
+
+        <div class="card">
+            <h3>微信支付</h3>
+            <img class="qr" src="wechat_qr.jpg" alt="WeChat Pay QR">
+        </div>
+
+        <div class="card">
+            <h3>PayPal</h3>
+            <a class="paypal-link" href="https://www.paypal.com/paypalme/你的ID" target="_blank">
+                Donate via PayPal
+            </a>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
